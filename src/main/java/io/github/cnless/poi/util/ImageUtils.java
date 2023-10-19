@@ -1,4 +1,4 @@
-package com.github.cnless.poi.util;
+package io.github.cnless.poi.util;
 
 import org.apache.poi.common.usermodel.PictureType;
 import org.apache.poi.util.IOUtils;

@@ -1,4 +1,4 @@
-package com.github.cnless.poi.sdt;
+package io.github.cnless.poi.sdt;
 
 import org.apache.poi.ooxml.POIXMLException;
 import org.apache.xmlbeans.XmlException;

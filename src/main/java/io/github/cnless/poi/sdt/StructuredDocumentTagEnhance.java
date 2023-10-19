@@ -1,7 +1,7 @@
-package com.github.cnless.poi.sdt;
+package io.github.cnless.poi.sdt;
 
-import com.github.cnless.poi.XWPFDocumentEnhance;
-import com.github.cnless.poi.util.ImageUtils;
+import io.github.cnless.poi.XWPFDocumentEnhance;
+import io.github.cnless.poi.util.ImageUtils;
 import org.apache.poi.common.usermodel.PictureType;
 import org.apache.poi.ooxml.POIXMLDocumentPart;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
