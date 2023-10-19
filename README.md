@@ -2,6 +2,18 @@
 
 Poi-enhance adds operations on SDT based on apache poi.
 
+# dependency
+
+```xml
+<dependency>
+  <groupId>io.github.cnless</groupId>
+  <artifactId>poi-enhance</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+
+
 # usage
 
 
