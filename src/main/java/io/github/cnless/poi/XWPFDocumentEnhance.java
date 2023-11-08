@@ -1,5 +1,10 @@
 package io.github.cnless.poi;
 
+
+
+
+import io.github.cnless.poi.converter.itext5.pdf.PdfConverter;
+import io.github.cnless.poi.converter.itext5.pdf.PdfOptions;
 import io.github.cnless.poi.sdt.StructuredDocumentTagEnhance;
 import org.apache.poi.ooxml.POIXMLProperties;
 import org.apache.poi.openxml4j.opc.OPCPackage;
@@ -119,5 +124,10 @@ public class XWPFDocumentEnhance extends XWPFDocument {
                 }
             }
         }
+    }
+    public void saveAsPdf(FileOutputStream pdfOutPutStream) throws IOException {
+        PdfOptions options = PdfOptions.create();
+
+        PdfConverter.getInstance().convert(this, pdfOutPutStream, options);
     }
 }
